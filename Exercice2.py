@@ -26,7 +26,7 @@ class Complex:
         return self.__re == C.__re and self.__im == self.__im
 
     def __ne__(self, C):
-        return self.__re != C.__re and self.__im != C.__im
+        return self.__re != C.__re or self.__im != C.__im
 
 if __name__ == '__main__':
     C1 = Complex(2, 3)
