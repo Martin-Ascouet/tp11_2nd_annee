@@ -16,7 +16,7 @@ class Matrice:
 if __name__ == "__main__":
     M1 = Matrice(([2, 1], [3, 2]))
     M2 = Matrice(([3, 4], [5, 6]))
-    M3 = M1 + M2
-    M4 = M1 - M2
+    M3 = M1 - M2
+    M4 = M1 + M2
     print(M3)
     print(M4)
